@@ -1,2 +1,3 @@
+const Locales = require('./es.json');
 
-export default {};
+export default Locales;

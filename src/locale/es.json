@@ -1,3 +1,36 @@
 {
+    "step1": {
+        "title": "Crea tu Password Manager",
+        "descImg1": "Guarda aquí todas tus contraseñas, datos o cualquier información, olvida las notas de papel y las aplicaciones no protegidas",
+        "descImg2": "Crea tu clave maestra: solo tú podrás acceder a tus secretos con ellas",
+        "title2": "Cómo funciona",
+        "desc1": "En primer lugar, debes crear una contraseña diferente para sus portenencias electrónicas. No podrás recuperar tu contraseña así que recuérdala bien.",
+        "title3": "Qué datos puedes guardar",
+        "desc2": "Por ejemplo, el número de tu tarjeta, el PIN y el PUK de tu teléfono móvil, el número de serie de algno de tus dispositivos o cualquier información que necesites en lugar seguro.",
+        "check": "Tengo la mayoría de edad, acepto que trateis mis datos según la politica de protección de datos.",
+        "errorCheck": "Debe de aceptar las políticas de privacidad."
+    },
+    "step2": {
+        "title": "Crea tu Password Manager",
+        "desc1": "En primer lugar, debes crear una contraseña diferente para sus portenencias electrónicas.",
+        "desc2": "No podrás recuperar tu contraseña, así que recuérdala bien.",
+        "pass1Title": "Crea tu Contraseña Maestra",
+        "pass1Placeholder": "Introduce tu contraseña",
+        "pass2Title": "Repite tu Contraseña Maestra",
+        "pass2Placeholder": "Repite tu contraseña",
+        "desc3": "También puedes crear una pista que te ayude a recordar tu contraseña maestra.",
+        "hintTitle": "Crea tu pista para recordar tu contraseña (opcional)",
+        "hintPlaceholder": "Introduce tu pista",
+        "errorPasswordsNotSame": "Las contraseñas no coinciden",
+        "errorPasswordType": "Contraseña(Min 8 - Max 24 caracteres)(Al menos 1 número y una mayúscula)"
+    },
+    "feedback": {
+        "errorTitle": "Ha habido un error",
+        "successTitle": "Tu password Manager ya está creado",
+        "errorMsg": "No hemos podido modificar tu Contraseña Maestra, inténtalo más tarde.",
+        "successMsg": "Hemos podido modificar tu Contraseña Maestra",
+        "errorBtn": "Volver a Password Manager >",
+        "successBtn": "Acceder >"
+    }
 
 }
