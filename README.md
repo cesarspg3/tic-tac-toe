@@ -1,3 +1,9 @@
+I make two views, one for mobile/tablet(mobile) and other desktop, I don't have the breakpoints I put it on 900px.
+
+I only make a one example test.
+
+The view isn't pixel perfect because i haven't a tool similar like Zeplin to see the styles.
+
 In the project directory, you can run:
 
 ### `npm start`
