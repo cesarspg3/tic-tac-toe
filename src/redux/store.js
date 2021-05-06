@@ -2,13 +2,11 @@ import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
 import appReducer from './appDucks';
-import progressBarReducer from './progressBarDucks';
-import formDataReducer from './formDataDucks';
+import gameReducer from './gameDucks';
 
 const rootReducer = combineReducers({
-    progressBar: progressBarReducer,
     app: appReducer,
-    formData: formDataReducer,
+    game: gameReducer,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

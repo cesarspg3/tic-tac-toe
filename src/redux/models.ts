@@ -1,25 +1,18 @@
-import { Breakpoints } from '../models/index';
+import { BoardState, Players, Results } from '../models/index';
 
 export interface App {
     loading: boolean;
     error: boolean;
-    device: Breakpoints;
 }
 
-export interface ProgressBar {
-    numOfBalls: number;
-    focusedBall: number;
-}
-
-export interface FormData {
-    hint: string;
-    password: string;
-    repeatPassword: string;
-    correctData: boolean;
+export interface Game {
+    matchId: string;
+    boardState: BoardState[];
+    result: Results;
+    turn?: Players;
 }
 
 export interface State {
     app: App;
-    progressBar: ProgressBar;
-    formData: FormData;
+    game: Game;
 }
