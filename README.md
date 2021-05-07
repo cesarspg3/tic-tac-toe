@@ -2,7 +2,7 @@
 
 First you must run `npm install` on ./ and ./server
 
-the ./folder is the part of node.
+the ./server folder is the part of node.
 
 Next you can run this commands:
 
