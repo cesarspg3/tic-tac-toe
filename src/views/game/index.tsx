@@ -49,7 +49,7 @@ const Game: React.FC = React.memo(() => {
             {loading && <Loading />}
             <Header result={result} turn={turn || Players.USER} />
             <Board boardState={boardState} matchId={matchId} result={result} />
-            <div onClick={initGameFn} className={classes.restartBtm}>
+            <div onClick={initGameFn} className={classes.restartBtm} id="repalyBtn">
                 Vuleve a Jugar
             </div>
         </div>

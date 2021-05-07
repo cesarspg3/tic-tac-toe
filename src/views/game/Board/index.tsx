@@ -46,6 +46,7 @@ const Board: React.FC<BoardProps> = React.memo(({ boardState, matchId, result })
         <div className={classes.container}>
             {boardState.map((box, i) => (
                 <div
+                    id={`box${i}`}
                     key={i}
                     className={classnames(classes.box, box === BoardState.MACHINE ? classes.machineBox : classes.userBox)}
                     onClick={() => {

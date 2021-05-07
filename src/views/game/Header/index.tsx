@@ -39,9 +39,9 @@ const Header: React.FC<HeaderProps> = React.memo(({ result, turn }) => {
     return (
         <div className={classes.container}>
             {result === Results.CONTINUE ? (
-                <div>{turn === Players.MACHINE ? 'Espera a tu turno...' : 'Es tu turno'}</div>
+                <div id="turn">{turn === Players.MACHINE ? 'Espera a tu turno...' : 'Es tu turno'}</div>
             ) : (
-                <div>{getResultTxt(result)}</div>
+                <div id="result">{getResultTxt(result)}</div>
             )}
         </div>
     );
