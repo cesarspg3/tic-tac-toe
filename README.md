@@ -1,4 +1,4 @@
-This is an example of three in a row
+This is an example of three in a row game with React/Typescript and node without typescript
 
 # Deploy app
 
