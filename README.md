@@ -1,3 +1,5 @@
+This is an example of three in a row
+
 # Deploy app
 
 First you must run `npm install` on ./ and ./server
@@ -15,4 +17,4 @@ Only the back (with debug in chrome): `npm run back`
 Run tests `npm test`
 
 
-//I don't separate the api calls in other folder
+// TO DO I don't separate the api calls in other folder
