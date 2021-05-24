@@ -13,3 +13,6 @@ Only the front: `npm run front`
 Only the back (with debug in chrome): `npm run back`
 
 Run tests `npm test`
+
+
+//I don't separate the api calls in other folder
